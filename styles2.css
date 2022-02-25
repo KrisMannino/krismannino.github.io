@@ -4,7 +4,14 @@ body {
     background-color: #c8c8c8;
     font-family: 'Source Sans Pro', sans-serif;
 }
-
+.dark{
+ background-color: black;
+ color: white;
+}
+button{
+  background-color: #c8c8c8;
+  font-weight: bolder;
+}
 ul {
   font-family: 'Source Sans Pro', sans-serif;
   list-style-type: none;
@@ -85,6 +92,9 @@ nav li{
   flex-direction: row;
   flex-flow: row-reverse;
   align-content: stretch;
+  left: 0;
+  bottom: 0;
+  width: 100%;
 }
 .fixed-footer a:hover{
   color: #00bfff;
