@@ -1,0 +1,210 @@
+body{
+    font-family: 'Roboto Serif', sans-serif;
+    font-family: 'Source Sans Pro', sans-serif;
+  }
+  header{
+      background-color: black;
+      color: white;
+      top: 0;
+      width: 100%;
+  }
+  h1{
+    text-align: center;
+    font-size: 80px;
+  }
+  h2{
+    text-align: right;
+    font-size: 40px;
+    padding: 10px;
+  }
+  .container{
+    /*font-size: 25px;*/
+    display: flex;
+    
+  }
+  .container-terry{
+    display: flex;
+    text-align: center;
+    margin-top: 50px;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 75%;
+  
+  }
+  .terry-1{
+    font-size: 3em;
+    padding: 25px;
+    font-family: 'Heebo', sans-serif;
+  }
+  .terry-2{
+      flex: 1;
+      justify-content: center;
+      font-style: italic;
+      padding: 25px;
+  }
+  .boots-1{
+    flex: 1;
+    padding: 30px;
+    text-align: center;
+    color: black;
+    font-size: 3em;
+    font-family: 'Heebo', sans-serif;
+    margin-left: auto;
+    margin-right: auto;
+    width: 75%;
+  
+  }
+  .boots-2{
+    text-align: center;
+      flex: 1;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  
+  }
+  .container{
+    display: flex;
+    margin-top: 50px;
+    flex-direction: column;
+  
+  }
+  #wealth-graph{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+  }
+  .wealth-2{
+    padding: 30px;
+    text-align: center;
+    text-align: left;
+    /*padding: 130px;*/
+    font-size: 1.5em;
+    margin-left: auto;
+    margin-right: auto;
+    width: 75%;
+  }
+  .container-bootstraps{
+    text-align: center;
+    font-family: 'Heebo', sans-serif;
+    margin-left: auto;
+    margin-right: auto;
+    width: 75%;
+  }
+  .bootstraps-1{
+    font-size: 25px;
+    padding: 25px;
+    font-family: 'Heebo', sans-serif;
+  }
+  .container-wages{
+    display: flex;
+    text-align: center;
+    margin-top: 50px;
+    align-items: center;
+    font-family: 'Heebo', sans-serif;
+    margin-left: auto;
+    margin-right: auto;
+    width: 75%;
+  
+  }
+  .wages-1{
+    font-size: 25px;
+    padding: 25px;
+    font-family: 'Heebo', sans-serif;
+  }
+  .wages-2{
+      flex: 1;
+      justify-content: center;
+      font-style: italic;
+      padding: 25px;
+  }
+  .container-comic{
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+    align-items: center;
+  }
+  .resignation-1{
+    font-family: 'Heebo', sans-serif;
+    margin-left: auto;
+    margin-right: auto;
+    width: 75%;
+  
+  }
+  .resignation-1 h2{
+    text-align: center;
+  }
+  .resignation-1 p{
+    padding: 25px;
+    font-size: 1.5em;
+  }
+  .container-newton{
+    text-align: center;
+  }
+  .newton-2{
+    font-size: 2em;
+    padding: 25px;
+    font-family: 'Heebo', sans-serif;
+    margin-left: auto;
+    margin-right: auto;
+    width: 75%;
+  }
+  .fixed-footer{
+    position: fixed;
+      bottom: 0;
+      width: 100%;
+      gap: 1000px;
+  
+  }
+  .fixed-footer ul{
+    display: flex;
+    size: 2em;
+    flex-direction: row;
+    flex-flow: row-reverse;
+    align-content: stretch;
+  }
+  .fixed-footer a:hover{
+    color: #00bfff;
+  }
+  .fixed-footer li{
+      padding: 10px 15px;
+  }
+    .footer-1{
+      font-size: 1em;
+      font-weight: bold;
+      flex:2;
+      order:1;
+      justify-content: space-between;
+      margin-right: 6em;
+    }
+    ul {
+      font-family: 'Source Sans Pro', sans-serif;
+      list-style-type: none;
+      margin: 0px;
+      padding: 0px;
+      overflow: hidden;
+      background-color: #333333;
+  
+    }
+  
+    li a {
+      display: block;
+      color: white;
+      text-align: center;
+      padding: 0px 0px;
+      text-decoration: none;
+    }
+    #references{
+      float: right;
+      padding: 3em;
+      text-decoration: none; 
+      color: black;
+    }
+    .container-ref{
+      font-size: 1.5em;
+      padding: 25px;
+      font-family: 'Heebo', sans-serif;
+    }
