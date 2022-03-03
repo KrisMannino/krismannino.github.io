@@ -123,10 +123,10 @@ nav li{
   align-items: flex-start;
 }
 
-#headshot{
+#headShot{
   border-radius: 75%;
   width: 25%;
-  height: auto;
+  height: 500px;
   border: 5px solid #555;
 
 }
