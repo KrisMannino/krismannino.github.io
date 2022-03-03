@@ -3,6 +3,7 @@ body {
     text-align: center;
     background-color: #c8c8c8;
     font-family: 'Source Sans Pro', sans-serif;
+    margin-left: 0px; /*CHECK ME*/
 }
 .dark{
  background-color: black;
@@ -36,7 +37,6 @@ li a {
   display: flex;
   justify-content: space-between;
   align-items: baseline;
-
 }
 
 .container-head div{
@@ -134,14 +134,14 @@ nav li{
   border: 5px solid #555;
 
 }
-.container-home{
 
+.container-home{
   border: 1px #ccc solid;
   padding: 10px;
   margin-top: 6em;
   font-size: 1.25em;
-
 }
+
 .home-1{
     font-weight: bold;
     font-style: bolder;

@@ -20,7 +20,7 @@ body{
   .container{
     /*font-size: 25px;*/
     display: flex;
-    
+
   }
   .container-terry{
     display: flex;
@@ -30,7 +30,7 @@ body{
     margin-left: auto;
     margin-right: auto;
     width: 75%;
-  
+
   }
   .terry-1{
     font-size: 3em;
@@ -53,7 +53,7 @@ body{
     margin-left: auto;
     margin-right: auto;
     width: 75%;
-  
+
   }
   .boots-2{
     text-align: center;
@@ -63,13 +63,13 @@ body{
     margin-left: auto;
     margin-right: auto;
     width: 50%;
-  
+
   }
   .container{
     display: flex;
     margin-top: 50px;
     flex-direction: column;
-  
+
   }
   #wealth-graph{
     display: block;
@@ -108,7 +108,7 @@ body{
     margin-left: auto;
     margin-right: auto;
     width: 75%;
-  
+
   }
   .wages-1{
     font-size: 25px;
@@ -132,7 +132,7 @@ body{
     margin-left: auto;
     margin-right: auto;
     width: 75%;
-  
+
   }
   .resignation-1 h2{
     text-align: center;
@@ -157,7 +157,7 @@ body{
       bottom: 0;
       width: 100%;
       gap: 1000px;
-  
+
   }
   .fixed-footer ul{
     display: flex;
@@ -187,9 +187,9 @@ body{
       padding: 0px;
       overflow: hidden;
       background-color: #333333;
-  
+
     }
-  
+
     li a {
       display: block;
       color: white;
@@ -200,7 +200,7 @@ body{
     #references{
       float: right;
       padding: 3em;
-      text-decoration: none; 
+      text-decoration: none;
       color: black;
     }
     .container-ref{
