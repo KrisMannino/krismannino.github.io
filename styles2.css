@@ -129,8 +129,8 @@ nav li{
 
 #headShot{
   border-radius: 75%;
-  width: 25%;
-  height: 500px;
+  width: 500px;
+  height: auto;
   border: 5px solid #555;
 
 }
