@@ -201,8 +201,7 @@ nav li{
   font-weight: bold;
   font-style: bolder;
   text-align: center;
-  width: 100%;
-  
+  width: 100%; 
   /**margin: 0 auto; /* Center the DIV horizontally */
 }
 .resume-text p{
