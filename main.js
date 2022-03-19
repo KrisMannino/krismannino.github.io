@@ -26,10 +26,14 @@ function changeImg(){
   else{
     img.src = "images/Kris Mannino - Headshot.jpg";}});*/
     function replace() {
-      document.getElementById("resume-jpg").style.display="none";
-      document.getElementById("resume-text").style.display="block";
+      var button = document.getElementById("highlights-button");
+      if(button.innerHTML == "Highlights"){
+        button.innerHTML = "Full Resume"
+        document.getElementById("resume-jpg").style.display="none";
+        document.getElementById("resume-text").style.display="block"; 
+      }else {
+          button.innerHTML = "Highlights"
+          document.getElementById("resume-jpg").style.display="block";
+          document.getElementById("resume-text").style.display="none";
+        }
       }
-    function replaceAgain() {
-       document.getElementById("resume-jpg").style.display="block";
-       document.getElementById("resume-text").style.display="none";
-       }
