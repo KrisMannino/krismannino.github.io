@@ -20,8 +20,8 @@ function changeImg(){
 }
 /**img.addEventListener("click", function(){
   
-  if(img.src = "images\Kris Mannino - Headshot.jpg"){
+  if(img.src = "images/Kris Mannino - Headshot.jpg"){
     alert("hello");
-    img.src = "images\luna and me0.jpg";}
+    img.src = "images/luna and me0.jpg";}
   else{
-    img.src = "images\Kris Mannino - Headshot.jpg";}});*/
+    img.src = "images/Kris Mannino - Headshot.jpg";}});*/
