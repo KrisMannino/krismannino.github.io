@@ -163,18 +163,8 @@ nav li{
 .container-about img{
   border: 2px solid #555;
 }
-
-#pdf-resume{
-  width: 80%;
-}
 .container-about {
   size: 50%;
-}
-#resume-pic{
-  width: 80%;
-  border-radius: 5%;
-  margin-top: 6em;
-  margin-bottom: 3em;
 }
 .container-about{
   padding-top: 100px;
@@ -185,4 +175,31 @@ nav li{
   justify-content: space-evenly;
   align-items: baseline;
   align-content: stretch;
+}
+/*Resume page*/
+#highlights-button, #resume-text{
+  float: right;
+  position: fixed;
+  margin-top: 6em;
+}
+#resume-jpg{
+  display: none;
+}
+#resume-pic{
+  width: 80%;
+  border-radius: 5%;
+  margin-top: 6em;
+  margin-bottom: 3em;
+}
+#pdf-resume{
+  width: 80%;
+}
+.resume-text{
+  width: 80%;
+  margin-top: 6em;
+  margin-bottom: 6em;
+  size: 3em;
+  font-weight: bold;
+  font-style: bolder;
+  text-align: center;
 }

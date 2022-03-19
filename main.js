@@ -25,3 +25,11 @@ function changeImg(){
     img.src = "images/luna and me0.jpg";}
   else{
     img.src = "images/Kris Mannino - Headshot.jpg";}});*/
+    function replace() {
+      document.getElementById("resume-jpg").style.display="none";
+      document.getElementById("resume-text").style.display="block";
+      }
+    function replaceAgain() {
+       document.getElementById("resume-jpg").style.display="block";
+       document.getElementById("resume-text").style.display="none";
+       }
