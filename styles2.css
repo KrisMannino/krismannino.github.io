@@ -208,3 +208,15 @@ nav li{
   padding-right: 15%;
   padding-left: 15%;
 }
+/**About page button*/
+#read-more-btn{
+  padding: 10px 40px;
+  border: none;
+  outline: none;
+  background-color: #00bfff;
+  margin: 15px;
+  cursor: pointer;
+}
+#read-more{
+  display: none;
+}

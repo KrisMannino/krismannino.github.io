@@ -30,10 +30,22 @@ function replace() {
   if(button.innerHTML == "Highlights"){
      button.innerHTML = "Full Resume"
      document.getElementById("resume-jpg").style.display="none";
-     document.getElementById("resume-text").style.display="block"; 
+     document.getElementsByClassName("resume-text").style.display="block"; 
    }else {
     button.innerHTML = "Highlights"
      document.getElementById("resume-jpg").style.display="block";
-     document.getElementById("resume-text").style.display="none";
+     document.getElementsByClassName("resume-text").style.display="none";
    }
 }
+
+/**function to show more text on About page */
+function moreText(){
+  var readBtn = document.getElementById("read-more-btn");
+    if(readBtn.innerText == "Read More"){
+      readBtn.innerText = "Read Less";
+      document.getElementById("read-more").style.display="block";
+    }else{
+      readBtn.innerText = "Read More";
+      document.getElementById("read-more").style.display="none";
+    }
+  }
