@@ -37,7 +37,6 @@ function replace() {
      document.getElementsByClassName("resume-text").style.display="none";
    }
 }
-
 /**function to show more text on About page */
 function moreText(){
   var readBtn = document.getElementById("read-more-btn");
@@ -49,3 +48,29 @@ function moreText(){
       document.getElementById("read-more").style.display="none";
     }
   }
+/**function to show more text on About page */
+/**var imageButton;
+var imageText;
+
+switch(getElementById(imageButton)) {
+  case "mlh":
+    imageButton="mlh";
+    //imageButton="mlh-button";
+    moreText(imageText);
+    break;
+  case "wssu":
+    imageButton= "wssu";
+    //imageButton="wssu-button";
+    moreText(imageText)
+    break;
+}
+function moreText(text){
+  var readBtn = document.getElementById(text+"-btn");
+    if(readBtn.innerText == "Read More"){
+      readBtn.innerText = "Read Less";
+      document.getElementById(text+"-more").style.display="block";
+    }else{
+      readBtn.innerText = "Read More";
+      document.getElementById(`${text}-more`).style.display="none";
+    }
+  }*/
